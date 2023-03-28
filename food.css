@@ -1,0 +1,48 @@
+h1{
+    margin: 0 auto;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.item{
+width :100%;
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s ease;
+}
+
+.item img:hover{
+    transform:scale(1.04) ;
+}
+
+.item h4{
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    font: 1500;
+}
+
+.item button{
+    padding: 5px 30px;
+    bottom: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+ 
+.item button:hover{
+    transform:scale(1.08) ;
+}

@@ -1,0 +1,20 @@
+
+.bg-container{
+    background-image:url("foodbg.png");
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.div{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(244, 213, 60);
+    width:100%;
+    font-size: 25px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius:20px ;
+}
+
